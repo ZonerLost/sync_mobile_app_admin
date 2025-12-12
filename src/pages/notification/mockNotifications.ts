@@ -1,0 +1,58 @@
+import type { Notification } from "../../Components/models/notification";
+
+export const MOCK_NOTIFICATIONS: Notification[] = [
+  {
+    id: "n-1",
+    title: "Daily locksmith report is ready",
+    body: "The latest daily locksmith performance report has been generated.",
+    time: "09:12",
+    dateLabel: "Today",
+    initial: "R",
+    variant: "success",
+  },
+  {
+    id: "n-2",
+    title: "2 companies joined this week",
+    body: "New companies have been onboarded. Review companies IN/OUT report.",
+    time: "08:47",
+    dateLabel: "Today",
+    initial: "C",
+    variant: "success",
+  },
+  {
+    id: "n-3",
+    title: "Weekly cancellations above target",
+    body: "Cancellation rate exceeded the alert threshold. Check the weekly cancellations report.",
+    time: "07:35",
+    dateLabel: "Today",
+    initial: "!",
+    variant: "warning",
+  },
+  {
+    id: "n-4",
+    title: "Revenue report exported",
+    body: "An operator exported the weekly revenue report as CSV.",
+    time: "18:22",
+    dateLabel: "Yesterday",
+    initial: "£",
+    variant: "success",
+  },
+  {
+    id: "n-5",
+    title: "New operator account created",
+    body: "A new operator has been added to the system. Review in management.",
+    time: "16:04",
+    dateLabel: "Yesterday",
+    initial: "O",
+    variant: "success",
+  },
+  {
+    id: "n-6",
+    title: "Monthly operator overview generated",
+    body: "The latest monthly operator overview is available in reports.",
+    time: "11:18",
+    dateLabel: "This week",
+    initial: "M",
+    variant: "success",
+  },
+];
